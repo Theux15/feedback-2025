@@ -38,6 +38,7 @@ export function App(){
           <input type="button" value={5} className="bg-dark-blue w-10.5 h-10.5 rounded-full text-medium-grey text-sm font-bold focus:bg-medium-grey focus:text-white sm:w-13 sm:h-13 hover:bg-orange hover:text-white hover:cursor-pointer"  onClick={() => handleMudarNotaAvaliacao(5)}/>
         </div>
 
+
         <button className="bg-orange w-full uppercase tracking-1 font-bold rounded-3xl text-sm py-3 hover:text-orange hover:bg-white cursor-pointer" onClick={handleSubmit}>Submit</button>
       
       </div>
