@@ -1,7 +1,8 @@
 import iconStar from "../assets/icon-star.svg";
 import { InputButton } from "./InputButton";
 
-export function CardInicial ({handleMudarNotaAvaliacao, handleSubmit}) {
+export function CardInicial ({setNotaAvaliacao, handleSubmit}) {
+
 
     return(
 
@@ -15,11 +16,11 @@ export function CardInicial ({handleMudarNotaAvaliacao, handleSubmit}) {
             <p className="text-sm text-light-grey mb-6 leading-1">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
     
             <div className="flex justify-between mb-6">
-                <InputButton handleMudarNotaAvaliacao={handleMudarNotaAvaliacao} value={1}/>
-                <InputButton handleMudarNotaAvaliacao={handleMudarNotaAvaliacao} value={2}/>
-                <InputButton handleMudarNotaAvaliacao={handleMudarNotaAvaliacao} value={3}/>
-                <InputButton handleMudarNotaAvaliacao={handleMudarNotaAvaliacao} value={4}/>
-                <InputButton handleMudarNotaAvaliacao={handleMudarNotaAvaliacao} value={5}/>
+                <InputButton setNotaAvaliacao={setNotaAvaliacao} value={1}/>
+                <InputButton setNotaAvaliacao={setNotaAvaliacao} value={2}/>
+                <InputButton setNotaAvaliacao={setNotaAvaliacao} value={3}/>
+                <InputButton setNotaAvaliacao={setNotaAvaliacao} value={4}/>
+                <InputButton setNotaAvaliacao={setNotaAvaliacao} value={5}/>
                 
             </div>
     
